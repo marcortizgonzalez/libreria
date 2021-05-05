@@ -1,0 +1,92 @@
+* {
+    /* font */
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imagenPrincipio {
+    background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(https://www.podiprint.com/wp-content/uploads/2020/03/Librerias-covid-19.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.parrafoPrincipio {
+    padding: 0% 20% 0% 20%;
+    color: #fff;
+    text-align: center;
+}
+
+.backcolor h1 {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.8vw;
+    padding: 0.7% 2% 0.7% 0%;
+    text-align: right;
+    margin: 0;
+}
+
+.two-columns {
+    width: 50%;
+    float: left;
+}
+
+.backcolor button {
+    background-color: #000;
+    color: #fff;
+    font-size: 1vw;
+    padding: 0.7% 2% 0.7% 0%;
+    text-align: right;
+    margin: 0;
+}
+
+.logoPrinpicio {
+    padding: 5% 0% 0% 43%;
+    width: 12%;
+}
+
+.buscador {
+    padding: 0% 0% 0% 31%;
+}
+
+.tamañoInput {
+    width: 45%;
+    font-size: 1vw;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+
+.botonBuscar {
+    text-decoration: none;
+    padding: 7px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    background-color: #EE6314;
+}
+
+.botonLogout {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8vw;
+    margin: 4px 2px;
+    cursor: pointer;
+}
